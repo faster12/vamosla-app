@@ -79,8 +79,20 @@
                 </div>
             @endif
 
+
+
             <div class="content">
                 <div class="title m-b-md">
+
+                    @php 
+                    if(DB::connection()->getDatabaseName())
+                    {
+                       echo "Connected to database ".DB::connection()->getDatabaseName();
+                    }else{
+                        echo 'test failed';
+                    }
+                    @endphp
+
                     Laravel
                 </div>
 
