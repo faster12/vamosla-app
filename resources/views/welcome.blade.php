@@ -4,16 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Vamosla app</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/app.css">
+        <script src="https://kit.fontawesome.com/98b7efc8ef.js" crossorigin="anonymous"></script>
 
-        <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -62,6 +61,7 @@
                 margin-bottom: 30px;
             }
         </style>
+
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -79,34 +79,64 @@
                 </div>
             @endif
 
-
-
             <div class="content">
-                <div class="title m-b-md">
+                <div class="title m-b-md text-danger">
 
-                    @php 
-                    if(DB::connection()->getDatabaseName())
-                    {
-                       echo "Connected to database ".DB::connection()->getDatabaseName();
-                    }else{
-                        echo 'test failed';
-                    }
-                    @endphp
+                    test
 
-                    Laravel
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+            </div>
+
+        </div>
+        <div class="jumbotron">
+            <div class="container d-flex justify-content-center align-items-center full-height">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="https://dummyimage.com/300x250/000/fff.png">
+                    </div>
+                    <div class="col-sm-6">
+                        intro e mensagem de slogan
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input class="form-control">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-info">
+                                        <span class="fa fa-send"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="help-block">
+                                Cadastre seu Email aqui - quando estiver tudo pronto te avisaremos!
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="container d-flex justify-content-center align-items-center full-height">
+                Saiba quem está online em tempo real
+            </div>
+            <div class="container d-flex justify-content-center align-items-center full-height">
+                forme times e separe por nível de amizade e habilidade
+                aqui não classificamos por elo, mas por nível de amizade
+            </div>
+            <div class="container d-flex justify-content-center align-items-center full-height">
+                em breve - torneios
+            </div>
+            <div class="container d-flex justify-content-center align-items-center full-height">
+                em breve - SUPER ABA - profissional separado do casual
+            </div>
+        </div>
+        <div>
+            @php 
+                if(DB::connection()->getDatabaseName())
+                {
+                   echo "Connected to database ".DB::connection()->getDatabaseName();
+                }else{
+                    echo 'test failed';
+                }
+            @endphp
         </div>
     </body>
 </html>
+
