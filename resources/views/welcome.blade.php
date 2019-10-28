@@ -96,7 +96,11 @@
                         <img src="https://dummyimage.com/300x250/000/fff.png">
                     </div>
                     <div class="col-sm-6">
-                        intro e mensagem de slogan
+                        Está em busca de grupos para a jogatina ?
+
+                        aqui a toxidade não tem vez com um sistema de punição muito mais eficaz.
+
+                        Temos como objetivo tornar o jogo mais divertido encontrando times com o mesmo interesse em ajudar para que todos consigam sair da jogatina solo. Seja para farmar, conquistar equipamentos, derrotar um boss ou mesmo testar novas técnicas no pvp!.
                         <div class="form-group">
                             <div class="input-group">
                                 <input class="form-control">
@@ -114,17 +118,20 @@
                 </div>
             </div>
             <div class="container d-flex justify-content-center align-items-center full-height">
-                Saiba quem está online em tempo real
+                Joga somente 1 hora por dia ? sem problema, saiba se o seu horário terá players conectados
             </div>
             <div class="container d-flex justify-content-center align-items-center full-height">
-                forme times e separe por nível de amizade e habilidade
-                aqui não classificamos por elo, mas por nível de amizade
+                forme times e separe por nível de amizade
+                aqui não classificamos por elo no cenário casual
+            </div>
+            <div class="container d-flex justify-content-center align-items-center full-height">
+                Encontre grupos para jogos raiz como por exemplo ragnarok ou tibia.
             </div>
             <div class="container d-flex justify-content-center align-items-center full-height">
                 em breve - torneios
             </div>
             <div class="container d-flex justify-content-center align-items-center full-height">
-                em breve - SUPER ABA - profissional separado do casual
+                em breve - SUPER ABA - cenário profissional para todos
             </div>
         </div>
         <div>
