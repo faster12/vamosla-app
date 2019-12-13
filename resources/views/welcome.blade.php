@@ -118,17 +118,34 @@
                 </div>
             </div>
             <div class="container d-flex justify-content-center align-items-center full-height">
-                Joga somente 1 hora por dia ? sem problema, saiba se o seu horário terá players conectados
+                Joga somente 1 hora por dia ? sem problema, saiba qual horário terá players conectados
+
+                <!-- hora -->
+                <div class="">
+                    
+                </div>
+                <div class="">
+                    
+                </div>
             </div>
             <div class="container d-flex justify-content-center align-items-center full-height">
                 forme times e separe por nível de amizade
                 aqui não classificamos por elo no cenário casual
             </div>
             <div class="container d-flex justify-content-center align-items-center full-height">
-                Encontre grupos para jogos raiz como por exemplo ragnarok ou tibia.
+                <div class="row">
+                    <div class="col-sm-6">
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        
+                    </div>
+                </div>
+                <h2>Encontre grupos para jogos raiz como por exemplo ragnarok ou tibia.</h2>
             </div>
             <div class="container d-flex justify-content-center align-items-center full-height">
-                em breve - torneios
+                <span class="fa fa-trophy fa-3x"></span>
+                <h2>em breve - torneios</h2>
             </div>
             <div class="container d-flex justify-content-center align-items-center full-height">
                 em breve - SUPER ABA - cenário profissional para todos
