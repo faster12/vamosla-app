@@ -10,3 +10,9 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+\.ebextensions/https-redirect-php\.config\.config
+
+\.ebextensions/securelistener-clb\.config
+
+app/Providers/AppServiceProvider\.php
