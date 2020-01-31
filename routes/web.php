@@ -11,11 +11,18 @@
 |
 */
 
+// landing page
 Route::get('/', function () {
     return view('welcome');
 });
 
+// busca rotas de autenticação
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// sem necessidade de login
 Route::post('mail-register/{id}', 'MailRegister');
+
+// middleware de login
+Route::group(['middleware' => 'auth'], function(){
+	Route::get('/home', 'HomeController@index')->name('home');
+});
