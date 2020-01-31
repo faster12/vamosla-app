@@ -10,8 +10,8 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
-    #use Notifiable;
-    #use Friendable;
+    use Notifiable;
+    use Friendable;
     #use Searchable;
     /**
      * The attributes that are mass assignable.
@@ -55,8 +55,5 @@ class User extends Authenticatable
     {
         return asset(Storage::url($avatar));
     }
-
-    
-
     
 }
