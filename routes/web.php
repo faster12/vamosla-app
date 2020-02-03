@@ -27,7 +27,12 @@ Route::group(['middleware' => 'auth'], function(){
 
 	Route::get('/home', 'HomeController@index')->name('home');
 
-	Route::get('/profile/edit/profile', [
+	Route::get('/profile/{slug}', [
+        'uses' => 'ProfilesController@index',
+        'as' => 'profile'
+    ]);
+
+    Route::get('/profile/edit/profile', [
         'uses' => 'ProfilesController@edit',
         'as' => 'profile.edit'
     ]);
